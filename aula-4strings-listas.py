@@ -22,4 +22,4 @@ lista_nomes[0] = 'Teste1' #substitui algum da lista
 #print(len(lista_nomes)) #conta os itens da lista
 
 frase_separada = palavra.split(',') #cria lista a partir de frase, apontando o que serpara um item do outro
-print(frase_separada[1])
+print(frase_separada[1]) 
