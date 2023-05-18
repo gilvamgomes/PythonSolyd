@@ -21,3 +21,10 @@ git commit -m "título do commit "
 #int : num. inteiro
 #float : num. quebrado ex: 1.78 
 #variáveis sempre começam com letras minúsculas, ex: nome ou nome_complemento
+
+comparaçoes: == != > < >= <= and or
+
+Comentar várias linhas: 
+-Seleciona as linhas
+- ctrl + k
+- ctrl + c
