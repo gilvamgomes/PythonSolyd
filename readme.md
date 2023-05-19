@@ -7,6 +7,7 @@
 git add (nome do arquivo editado)
 git status (para conferir o que está na lista para o push)
 git commit -m "título do commit "
+git push
 
 
 

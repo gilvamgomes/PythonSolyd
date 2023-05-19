@@ -96,3 +96,22 @@ for nome_da_pessoa in lista_convidados:
 
 # for convidado in lista_de_convidados:
 #     print(convidado)
+
+
+#ediçao Samuca
+
+""" lista_convidados = [] 
+resposta = ''
+
+def convidados():
+    convidado = (input('Insira o nome do convidado: ')) 
+    lista_convidados.append(convidado) 
+    resposta = input('Tem mais convidados? ').lower()
+    if resposta == 'sim' or resposta =='s' or resposta == 'ss'
+        convidados()
+    else:
+        for i in lista_convidados:
+            print(i)
+
+convidados() """
+
