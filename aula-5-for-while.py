@@ -57,6 +57,8 @@ print(len(lista_frutas))
 #pergunta o nome de todos e acrescenta numa lista de convidados
 #dps imprimi os nomes da lista 
 
+
+'''
 lista_convidados = [] #lista zerada, de início
 
 convidado = (input('Insira o nome do convidado: ')) #Aqui recebo o nome do convidado
@@ -77,8 +79,20 @@ while resposta == 'sim' or resposta == 's' or resposta == 'S':
 
 for nome_da_pessoa in lista_convidados:
     print(nome_da_pessoa)
+'''
 
+#Exercício resolvido
+print('Progra de controle de festinha 1.0')
+print('###############################\n')
+    
+numero_de_convidados = input('Coloque o numero de convidados: ')
+lista_de_convidados = []
 
+i = 1
+while i <= int(numero_de_convidados):
+    nome_do_convidado = input('Coloque o nome do convidado #' + str(i) + ': ')
+    lista_de_convidados.append(nome_do_convidado)
+    i += 1
 
-
-
+for convidado in lista_de_convidados:
+    print(convidado)
